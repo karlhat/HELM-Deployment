@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 echo "creating serviceaccount tiller"
 kubectl create serviceaccount --namespace kube-system tiller
 echo "Binding the serviceaccount to the admin role called cluster-admin inside the kube-system namespace"
