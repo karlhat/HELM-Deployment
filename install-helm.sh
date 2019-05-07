@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Installing oraclelinux-developer-release-el7 package" 
 echo ""
 yum install -y oraclelinux-developer-release-el7
