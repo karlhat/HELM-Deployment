@@ -12,5 +12,5 @@ then
   echo "Updating the tiller-deploy deployment to have the service account"
   kubectl -n kube-system patch deployment tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}'
 else
-  echo "Run this script as non-root user"
+  echo "Run this script as non-root user with kubetcl cli configured"
 fi
