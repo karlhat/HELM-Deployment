@@ -10,6 +10,6 @@ then
    yum -y install yum-utils
    yum-config-manager --enable  ol7_developer
    echo "installing HELM"
-   yum install helm
+   yum -y install helm
    
 fi
